@@ -1,0 +1,18 @@
+#pragma once
+	
+enum EnemyType : i16 {
+	ENEMY_COMMON,
+	ENEMY_ELITE,
+	ENEMY_BOSS
+};
+
+enum EnemyId : i16 {
+	E_COMMON_BANDIT,
+	E_COMMON_SHOOTER,
+
+	E_ELITE_BEAST,
+	E_ELITE_CASTER,
+	E_ELITE_CASTER_SHIELD_GENERATOR,
+
+	E_BOSS_ABADDON
+};
